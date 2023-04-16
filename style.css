@@ -7,6 +7,14 @@
     background-color: black;
   }
 
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: red;
+  }
+
   @font-face {
     font-family: rdr2font;
     src: url("/fonts/CHINESER.TTF") format("opentype");
@@ -39,11 +47,11 @@
     background: #000000;
     height: 10vh;
     font-family: rdr2font;
-    font-size: 20;
+    font-size: 23;
   }
   
   main {
-    background: url("/img/redwallpaper2vinheta.jpg") no-repeat;
+    background: url("/img/redwallpaper2.jpg") no-repeat;
     background-size: cover;
     height: 120vh;
   }
@@ -54,7 +62,7 @@
   }
   
   .nav-list li {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-left: 32px;
   }
   
