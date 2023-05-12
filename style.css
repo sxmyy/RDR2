@@ -17,7 +17,7 @@
 
   @font-face {
     font-family: rdr2font;
-    src: url("/fonts/CHINESER.TTF") format("opentype");
+    src: url("fonts/CHINESER.TTF") format("opentype");
   }
 
   
@@ -51,7 +51,7 @@
   }
   
   main {
-    background: url("/img/redwallpaper2.jpg") no-repeat;
+    background: url("img/redwallpaper2.jpg") no-repeat;
     background-size: cover;
     height: 120vh;
   }
@@ -133,41 +133,41 @@
   }
 
   .sinopseall {
+    width: 100%;
     position: absolute;
-    top: 200px;
+    top: 945px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .sinopse {
     color: white;
-    position: absolute;
+    line-height: 3;
     width: 600px;
-    top: 650px;
-    left: 600px;
     font-size: 35px;
     font-family: rdr2font;
     text-shadow: 0 0 2px white;
+    text-align: center;
   }
 
   .sinopse2 {
     color: white;
-    position: absolute;
     width: 600px;
-    top: 750px;
-    left: 370px;
     font-size: 19px;
     font-family: rdr2font;
     text-shadow: 0 0 2px white;
     letter-spacing: 1px;
+    text-align: center;
   }
 
   .sinopse3 {
     color: white;
-    position: absolute;
     width: 600px;
-    top: 800px;
-    left: 370px;
     font-size: 19px;
     font-family: rdr2font;
     text-shadow: 0 0 2px white;
     letter-spacing: 1px;
+    text-align: center;
   }
