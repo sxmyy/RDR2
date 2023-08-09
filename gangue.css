@@ -190,33 +190,6 @@
     text-align: center;
   }
 
-  
-  .ganguepersonagens {
-    text-align: center;
-    position: relative;
-    bottom: 80px;
-  }
-
-  .dutch2 {
-    font-family: rdr2font;
-    font-size: 55px;
-    color: white;
-    position: absolute;
-    left: 57%;
-    top: 15%;
-    text-shadow: 2px 2px 2px black;
-  }
-
-  .hosea2 {
-    font-family: rdr2font;
-    font-size: 55px;
-    color: white;
-    position: absolute;
-    left: 57%;
-    top: 67%;
-    text-shadow: 2px 2px 2px black;
-  }
-
 
 /*===Footer===*/
   .footer {
